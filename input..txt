@@ -1,0 +1,57 @@
+#Case1:
+help
+quit
+
+#Case2: //line 4 is wrong orders
+add yb
+add yb
+add HelloWorld
+add
+add yb yb
+add yb yb yb
+prta
+quit
+
+#Case3: //line 3 is wrong order
+add yb
+rm yb
+rm yb
+add yb
+prt yb
+quit
+
+#Case4: //lines 3, 6 are wrong orders
+add yb
+brw yb
+brw yb
+prta
+ret yb
+ret yb
+prta
+quit
+
+#Case5:
+add yb
+add YB
+cnta
+add yb
+cnta
+cnt yb
+quit
+
+#Case6: //line 1, 2 are wrong orders
+prt yb
+adddd
+quit
+
+#Case7:
+add yb
+add yb
+save
+quit
+
+#Case8:(together with case7)
+load
+prta
+quit
+
